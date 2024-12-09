@@ -1,7 +1,7 @@
 import 'package:app_assigment_3/providers/album_provider.dart';
 import 'package:app_assigment_3/providers/post_provider.dart';
 import 'package:app_assigment_3/providers/user_provider.dart';
-import 'package:app_assigment_3/screens/post_screen.dart';
+import 'package:app_assigment_3/screens/index.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
           primaryColor: const Color(0XffEF6137),
           primarySwatch: Colors.amber
         ),
-        home: const PostOverviewScreen(),
+        home: const AppHomePage(title: 'Assigment 3'),
       ),
     );
   }
